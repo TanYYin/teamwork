@@ -28,10 +28,10 @@ public class Disease {
     private String desc;
 
     public Disease(String name, String prevent, String get_prob, String symptom, String[] cure_way, String cure_lasttime, String cured_prob, String cause, String[] cure_department, String easy_get, String desc) {
-        this.name = name;
         this.prevent = prevent;
-        this.get_prob = get_prob;
+        this.name = name;
         this.symptom = symptom;
+        this.get_prob = get_prob;
         this.cure_way = cure_way;
         this.cure_lasttime = cure_lasttime;
         this.cured_prob = cured_prob;
