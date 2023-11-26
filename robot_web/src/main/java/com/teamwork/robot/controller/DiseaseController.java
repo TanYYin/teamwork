@@ -1,15 +1,3 @@
-// package com.hei.robot.controller;
-
-// import com.hei.robot.model.node.Disease;
-// import com.hei.robot.repository.relationshipRepo.OtherRelationshipRepo;
-// import com.hei.robot.result.NodesResult;
-// import com.hei.robot.result.Result;
-// import com.hei.robot.service.impl.nodeServiceImpl.DiseaseServiceImpl;
-// import com.hei.robot.util.IsEmptyUtil;
-// import org.springframework.beans.factory.annotation.Autowired;
-// import org.springframework.web.bind.annotation.*;
-
-// import java.util.*;
 package com.teamwork.robot.controller;
 
 import com.teamwork.robot.model.node.Disease;
@@ -24,6 +12,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Xinjie
+ * @date 2023/11/25 23:43
+ */
 @RestController
 @RequestMapping("/disease")
 public class DiseaseController {
