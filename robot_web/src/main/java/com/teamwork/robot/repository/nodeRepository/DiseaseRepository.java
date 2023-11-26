@@ -1,6 +1,3 @@
-// package com.hei.robot.repository.nodeRepository;
-
-// import com.hei.robot.model.node.Disease;
 package com.teamwork.robot.repository.nodeRepository;
 
 import com.teamwork.robot.model.node.Disease;
@@ -9,12 +6,11 @@ import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-<<<<<<< dev-Xinjie
+
 /**
  * @author Crystry
  * @date 2021/11/22 21:42
  */
-
 @Repository
 public interface DiseaseRepository extends Neo4jRepository<Disease,Long> {
     /**
