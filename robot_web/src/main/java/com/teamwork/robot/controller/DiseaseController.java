@@ -10,7 +10,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
+package com.teamwork.robot.controller;
 
+import com.teamwork.robot.model.node.Disease;
+import com.teamwork.robot.repository.relationshipRepo.OtherRelationshipRepo;
+import com.teamwork.robot.result.NodesResult;
+import com.teamwork.robot.result.Result;
+import com.teamwork.robot.service.impl.nodeServiceImpl.DiseaseServiceImpl;
+import com.teamwork.robot.util.IsEmptyUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 @RequestMapping("/disease")
