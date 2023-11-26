@@ -1,6 +1,9 @@
-package com.hei.robot.repository.nodeRepository;
+// package com.hei.robot.repository.nodeRepository;
 
-import com.hei.robot.model.node.Disease;
+// import com.hei.robot.model.node.Disease;
+package com.teamwork.robot.repository.nodeRepository;
+
+import com.teamwork.robot.model.node.Disease;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Repository;
