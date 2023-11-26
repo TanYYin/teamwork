@@ -1,17 +1,14 @@
 package com.teamwork.robot.controller;
 
 import com.teamwork.robot.model.node.Drugs;
-import com.teamwork.robot.server.impl.nodeServiceImpl.DrugsServiceImpl;
+import com.teamwork.robot.service.impl.nodeServiceImpl.DrugsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created with IntelliJ IDEA.
- *
- * @Author: jzy
- * @Date: 2023/11/25/22:04
- * @Description:
+ * @author Xinjie
+ * @date 2023/11/25 23:43
  */
 @RestController
 @RequestMapping("/drugs")
